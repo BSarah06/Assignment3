@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Exploration Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Space Exploration Quiz</h1>
+    <div id="quiz-container">
+        <div id="auth-container">
+            <label for="username">Username:</label>
+            <input type="text" id="username" placeholder="Enter username">
+            <button id="start-quiz">Start Quiz</button>
+        </div>
+        <div id="question-container" style="display: none;">
+            <p id="question"></p>
+            <form id="answers">
+                <!-- Answer options will be inserted here dynamically -->
+            </form>
+            <button id="next-question" style="display: none;">Next Question</button>
+        </div>
+        <div id="result-container" style="display: none;">
+            <p id="result"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
